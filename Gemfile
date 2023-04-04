@@ -2,8 +2,8 @@ source "https://rubygems.org"
 
 gemspec
 
-gem "rails"
-gem "rake", ">= 11.1"
+gem "rails", ">= 6.1.7.3"
+gem "rake", ">= 12.3.3"
 gem "rubocop", git: "https://github.com/rubocop-hq/rubocop.git", require: false
 gem "rack-proxy", require: false
 
