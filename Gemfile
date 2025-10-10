@@ -2,10 +2,10 @@ source "https://rubygems.org"
 
 gemspec
 
-gem "rails"
+gem "rails", ">= 5.2.2.1"
 gem "rake", ">= 11.1"
 gem "rubocop", git: "https://github.com/rubocop-hq/rubocop.git", require: false
-gem "rack-proxy", require: false
+gem "rack-proxy", ">= 0.7.0", require: false
 
 group :test do
   gem "minitest", "~> 5.0"
